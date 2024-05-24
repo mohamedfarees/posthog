@@ -2,7 +2,7 @@ import { createEntry } from '../webpack.config'
 import { StorybookConfig } from '@storybook/react-webpack5'
 
 const config: StorybookConfig = {
-    stories: ['../frontend/src/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
+    stories: ['../frontend/src/**/*.stories.@(js|jsx|ts|tsx|mdx)'], // Added comments
 
     addons: [
         '@storybook/addon-docs',
